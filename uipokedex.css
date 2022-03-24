@@ -27,7 +27,7 @@ input {
 
 }
 .pokedex-body {
-  width: 90vw;
+  width: 95vw;
   height: 150vh;
   border-color: black 15px;
   background-color: #0F1A52;
@@ -36,7 +36,7 @@ input {
   align-items: center;
   vertical-align: middle;
   position: absolute;
-  margin: 3%;
+  margin: 1%;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 .pokedex-up{
@@ -53,8 +53,8 @@ input {
 .white-div-img-pk{
     background-color: #fff;
     display:column;
-    width: 400px;   
-    height: 300px;
+    width: 50vw;   
+    height: 40vh;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
