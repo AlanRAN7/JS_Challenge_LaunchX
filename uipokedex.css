@@ -54,7 +54,7 @@ input {
     background-color: #fff;
     display:column;
     width: 50vw;   
-    height: 40vh;
+    height: 60vh;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
@@ -120,6 +120,15 @@ input {
 .poke-types div {
     padding: 5px;
     margin: 5px;
-    border-radius: 4px;
-    border: 1px dashed black;
+    border: 1px solid black;
+}
+
+@media (max-width: 400px) {
+    .pokedex-body{
+        margin: 2%;
+    }
+    .white-div-img-pk{
+        width: 60vw;
+        height: 40vh;
+    }
 }
